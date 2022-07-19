@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Import table
+title: Import tables
 nav_order: 1
 parent: Admin
 ---

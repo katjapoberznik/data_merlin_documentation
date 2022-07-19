@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Table properties
-nav_order: 1
+nav_order: 3
 parent: Catalog
 grand_parent: Admin
 ---

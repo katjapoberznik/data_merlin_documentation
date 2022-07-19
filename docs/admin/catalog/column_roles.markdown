@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Column roles
-nav_order: 1
+nav_order: 2
 parent: Catalog
 grand_parent: Admin
 ---
