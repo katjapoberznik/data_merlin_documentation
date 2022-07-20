@@ -13,5 +13,7 @@ Process consist of three main steps:
 2.  d
 3. d
 
+![](../../snapshots/mappings_1.png)
+
 
 
