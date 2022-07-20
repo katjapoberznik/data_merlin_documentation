@@ -23,5 +23,7 @@ In picture below, some of the possibilities are presented:
 As we said before, mapping is a main document or object in Data Merlin, so is list of mappings a main form and it opens right after successful login. It is where we manage and perform operations over mappings, such as create, edit, delete, deploy and so on. 
 Below, we will try to cover the most important features. Some of the options can be selected on one mapping specifically, while for others, we can mark multiple mappings, as shown on picture below.
 
-![](../../snapshots/mappings_2.png)
+![](../../snapshots/mappings_2.PNG)
+
+#### 1. Create new
 
