@@ -1,4 +1,11 @@
-### SQL
+---
+layout: default
+title: SQL
+nav_order: 3
+parent: Mappings
+---
+
+## SQL
 
 <img src="../../snapshots/mappings_8.PNG" width="600">
 

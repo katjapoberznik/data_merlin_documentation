@@ -1,6 +1,13 @@
-### Notes/messages
+---
+layout: default
+title: Notes
+nav_order: 8
+parent: Mappings
+---
 
-<img src="../../snapshots/mappings_21.PNG" width="600">
+## Notes/messages
+
+<img src="../../snapshots/mappings_21.PNG">
 
 
 Notes can be pinned to a mapping. Click ‘New’ button, write down a note and click ‘Update’ button.

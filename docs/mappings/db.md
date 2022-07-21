@@ -1,6 +1,13 @@
-### DB
+---
+layout: default
+title: DB
+nav_order: 7
+parent: Mappings
+---
 
-<img src="../../snapshots/mappings_20.PNG" width="650">
+## DB
+
+<img src="../../snapshots/mappings_20.PNG">
 
 In DB tab, all steps, necessary for loading one target table, are listed. All steps, except the last one, are created when a ‘Generate fields’ button is clicked in SQL tab. Last step however is created when a ‘Create new job’ button is clicked in JOBS tab.
 First, let’s break down this list, by STEP NAME:

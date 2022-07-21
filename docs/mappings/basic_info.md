@@ -1,12 +1,11 @@
-### Create/Edit Mappings
+---
+layout: default
+title: Basic info
+nav_order: 2
+parent: Mappings
+---
 
-In this section we will show how to use mapping details form. Every tab in this form will be covered below.
-In order to apply changes, we are making in our mappings, “Update” button needs to be clicked.
-It is important to know, that mappings with PRODUCTION status (more on mapping statuses is covered below) have “Update” button enabled only for admin user.
-
-<img src="../../snapshots/mappings_5.PNG" width="250">
-
-### Basic Info
+## Basic info
 
 <img src="../../snapshots/mappings_6.PNG" width="700">
 
