@@ -1,6 +1,6 @@
 ### Notes/messages
 
-<img src="../../snapshots/mappings_21.PNG" width="650">
+<img src="../../snapshots/mappings_21.PNG" width="600">
 
 
 Notes can be pinned to a mapping. Click ‘New’ button, write down a note and click ‘Update’ button.
