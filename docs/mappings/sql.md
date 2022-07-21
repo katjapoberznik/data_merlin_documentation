@@ -31,4 +31,17 @@ When job is created, our mapping SQL gets imported into what we call a DIFFERENT
 
 #### 4. Generate fields
 
-<img src="../../snapshots/mappings_11.png" width="200">
+<img src="../../snapshots/mappings_11.png" width="220">
+
+By clicking a “Generate fields” button, following steps are performed in the background:
+*	Mapping SQL is parsed (used source tables are defined, query result fields are extracted)
+*	Extract tables, stage tables and corresponding views for all source tables are created 
+In case when ERROR occurs, whole stack is written at the bottom of the form. You can open it, by clicking dropdown control, right to the error message in red text:
+
+<img src="../../snapshots/mappings_12.PNG" width="700">
+
+#### 5. Fields list
+
+<img src="../../snapshots/mappings_13.PNG" width="500">
+
+List of source fields, that were parsed from our mapping SQL query. We will use them later in MAPPING tab, where they will be bound to target fields.
