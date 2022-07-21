@@ -25,5 +25,10 @@ We can always directly try our query and see what results we get.
 
 #### 3. Create mapping SQL as view
 
-
 <img src="../../snapshots/mappings_105.PNG" width="300">
+
+When job is created, our mapping SQL gets imported into what we call a DIFFERENTION VIEW or VD. If query don’t start with SELECT, importing in at as nested query can cause problems. If this option is selected, query gets packed into view first, then this view is imported into VD query. More on VD will be covered in section below.
+
+#### 4. Generate fields
+
+<img src="../../snapshots/mappings_11.png" width="200">
