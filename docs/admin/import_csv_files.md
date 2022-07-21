@@ -42,7 +42,7 @@ In field types we have the option to adjust column properties, by clicking on th
 
 ## Executiom settings
 
-Most fields here will be auto filled and we can change them before the table import. We recommend that the table schema is *CSV* and that you choose the *CSV* connection. If you don not have one yet, go to connection and create it. We provide the template below.
+Most fields here will be auto filled and we can change them before the table import. We recommend that the table schema is *CSV* and that you choose the *CSV* connection. If you don not have one yet, go to *ADMIN -> CONNECTIONS* and create it. We provide the template below.
 
 ![](../../snapshots/import_csv_files_6.PNG)
 
