@@ -5,6 +5,6 @@ nav_order: 2
 has_children: true
 ---
 
-## Admin
+# Admin
 
 In ADMIN tab we define all the data, necessary for our Data Merlin instance to work. Here we can find a table catalog, user profiles manager and if our model has any specifics regarding methodology, we can manage it here.

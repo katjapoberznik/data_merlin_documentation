@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Import tables
-nav_order: 1
+nav_order: 2
 parent: Admin
 ---
 
-## Import tables
+# Import tables
 
 In order for Data Merlin to gain its automation capabilities, we must define metadata of our source and target tables, but first we must import them to the catalog. Most of the time only target tables need to be imported manually, while source tables are found and imported automatically, based on parsed mapping SQL.
 
