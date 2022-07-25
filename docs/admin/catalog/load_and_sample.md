@@ -21,7 +21,7 @@ In Number of load partitions window, we can set number of partitions, which will
 
 ## Incremental load EX and ST
 
-### 1. V_EX WHERE expression and PPN_GID is determined
+### 1. V_EX WHERE expression and PPN_GID is defined
 
 <img src="../../../snapshots/load_sample_1.PNG" width="800">
 
@@ -48,5 +48,9 @@ INSERT INTO ST.ST_ORA_INS2_PSK_OSN_ENOTE_SKLEPDOK
 SELECT * FROM ST.VS_ORA_INS2_PSK_OSN_ENOTE_SKLEPDOK;
 ```
 
+### 2. V_EX WHERE expression, DELETE WHERE in EX_LOAD and PPN_GID is defined
+
+<img src="../../../snapshots/load_sample_3.PNG" width="600">
+<img src="../../../snapshots/load_sample_4.PNG" width="500">
 
 
