@@ -8,9 +8,9 @@ grand_parent: Admin
 
 ## Load and sample
 
-Load & Sample enables that we can filer data from source table.
+Load & Sample enables that we can filter data from source table.
 In EXTRACT SQL, we can define NEW query to read from source table. We can select just some columns, or we can rename some…
-In Number of load partitions window, we can set number of partitions, which will define numbers of paroral loading. To use partition loading, define DST fields In Columns roles tab is mandatory. 
+In Number of load partitions window, we can set number of partitions, which will define numbers of parallel loading. To use partition loading, define DST fields In Columns roles tab is mandatory. 
 
 ![](../../../snapshots/load_and_sample_1.PNG)
 
@@ -31,11 +31,13 @@ In Number of load partitions window, we can set number of partitions, which will
 
 **EX**
 
+```sql
 TRUNCATE TABLE EX.EX_ORA_INS2_PSK_OSN_ENOTE_SKLEPDOK; <br>
 "INSERT INTO FROM EX.EX_ORA_INS2_MET_NASLOV" <br>
 SELECT * , NVL(CAST(ID AS VARCHAR(50)), 'XX') as PPN_GID <br>
 FROM INSURANCE2."PSK_OSN_ENOTE_SKLEPDOK" <br>
 WHERE trunc(sysdate - DATUM_VREDNOTENJA) < 70; <br>
+```
 
 
 **ST**
