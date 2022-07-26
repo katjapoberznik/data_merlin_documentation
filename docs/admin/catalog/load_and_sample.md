@@ -155,7 +155,7 @@ DELETE FROM ST.ST_ORA_INS2_MET_NASLOV WHERE 3=3;
 INSERT INTO ST.ST_ORA_INS2_MET_NASLOV SELECT * FROM ST.VS_ORA_INS2_MET_NASLOV;
 ```
 
-### 5.
+### 5. 'Delta' LOAD (how to keep 'delta' versions in EX)
 
 <img src="../../../snapshots/load_sample_9.PNG" width="600">
 <img src="../../../snapshots/load_sample_10.PNG" width="500">
